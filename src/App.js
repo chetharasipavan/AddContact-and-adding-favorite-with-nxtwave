@@ -53,7 +53,7 @@ class App extends Component {
       mobileNo,
       isFavorite: false,
     }
-    if (newContact.name == '' || newContact.mobileNo === '') {
+    if (newContact.name === '' || newContact.mobileNo === '') {
       alert('Please enter valid details')
       return
     } else {
